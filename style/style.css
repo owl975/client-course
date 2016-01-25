@@ -1,0 +1,71 @@
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  label {
+    color: white;
+  }
+
+.nav-fixed{
+position: fixed;
+right: 0;
+left: 0;
+z-index: 1030;
+}
+
+.nav-fixed {
+top: 0;
+}
+
+@media (min-width: 768px)
+.nav-fixed{
+border-radius: 0;
+}
+
+  main {
+    flex: 1 0 auto;
+  }
+
+/*#splash {
+  position: center;
+  background: url(https://images.unsplash.com/43/L6sQn4GyQdSBW7pLgEz7_DSC_0013.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=090c5a3c239b7a56566d5dbafa5d6060) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  height: 300px;
+  margin: -35px 0 -25px 0;
+
+}
+*/
+#titleCard {
+
+	padding-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+.breadnav {
+
+background-color: grey;
+
+}
+
+.collapsible-body{
+  background-color: #607D8B;
+}
+
+.checkboxesdiv {
+  margin-left: 25px;
+  margin-bottom: 25px;
+
+}
+
+.parallax-container {
+  height: 500px;
+}
