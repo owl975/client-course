@@ -2,6 +2,17 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+
+  }
+
+  main {
+        padding: 25px 25px 25px 25px;
+
+  }
+
+  nav {
+    left-padding: 25px;
+    right-padding: 25px;
   }
 
   label {
